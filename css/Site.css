@@ -1,0 +1,167 @@
+body {
+    background: linear-gradient(70deg, white,white);
+    color:black;
+    min-height: 100vh;
+  }
+
+/********************For dropdown-menu at mouse hover********************/
+.dropdown:hover>.dropdown-menu
+	{
+		display: block;
+		color: rgb(95,207,128)
+	}
+
+
+	
+/***************************cOUNTER START*********************************/
+	
+.counts
+{
+	padding: 30px 0px;
+	background: url(images/1.jpg);
+}
+
+.counts .counters span
+{
+	font-size: 48px;
+	display: block;
+	color: #5fcf80;
+	font-weight: 600;
+	font-weight: bold;
+}
+
+.counts .counters p
+{
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-family: "Railway",sans-sarif;
+	font-size: 15px;
+	font-weight: 900;
+	color: #37423b;
+}
+
+.shadow-effect
+{
+	background: black;
+	padding: 20px;
+	border-radius: 4px;
+	text-align: center;
+	border: 1px solid #ececec;
+	box-shadow: 0 19px 38px rgba(255,255,255,0,0.08), 0 15px 12px rgba(255,255,255,0,0.08) ;
+}
+
+/***************************cOUNTER ENDS*********************************/
+
+
+.Promise{
+	background: linear-gradient(white,rgb(127, 234, 127));
+	
+}
+#Card
+      	{
+			position: relative;
+             border: 1px solid black;
+       		 height:280px;
+       		 width:345px;
+       		 margin:10px;
+       		 background-color:white;
+       		 display:inline-block;
+        	 border-radius:5px;
+       		 color:black;
+        		 text-align:center;
+       		 border-radius:10px;
+      	 }
+
+  .gallery{
+       display:flex;
+       flex-wrap:wrap;
+       width:100%;
+       justify-content:center;
+       align-items:center;
+       margin:50px 0;
+      color:black;}
+  .content{
+       width:20%;
+       margin:15px;
+       box-sizing:border-box;
+       float:left;
+       text-align:center;
+       border-radius:20px;
+       cursor:pointer;
+       padding-top:10px;
+       box-shadow:0 14px 28px rgba(0,0,0,0.250), 0 10px 10px rgb(157, 243, 157);
+      transition:.4s;
+       background:#f2f2f2;
+      }
+   .content:hover{
+       box-shadow:03px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+       transform:translate(0px,-8px);
+       }
+
+     #img{
+          width:200px;
+          height:200px;
+          text-align:center;
+          margin:0 auto;
+          display:block;
+         }
+
+/*==========================Promise Cards===================================*/
+
+
+.quotes {
+  width: 80vw;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.quotes .box {
+  position: relative;
+  width: 25vw;
+  height: 55vh;
+  background: #f2f2f2;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 2;
+  box-sizing: border-box;
+  padding: 30px;
+  box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap;
+}
+
+.quotes .box h2 {
+
+  margin: 0;
+  padding: 5px;
+  line-height: 35px;
+  right: 10%;
+  font-size: 1.5rem;
+  color: black;
+  text-shadow: 2px 2px 10px rgb(118, 250, 118);
+  font-family:segoe script ;
+}
+
+.quotes .box p {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: justify;
+  font-family: comic sans ms;
+}
+
+.quotes .box:hover {
+
+  box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(white,rgb(175, 243, 175) );
+}
+
+ li{
+  list-style: none;
+  color:black;
+}
+a{
+  color: black;
+}
